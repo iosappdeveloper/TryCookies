@@ -18,6 +18,9 @@
 		2E4347BF23E920A4004A4237 /* UICommons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4347BC23E920A4004A4237 /* UICommons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E4347C023E920A4004A4237 /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4347BD23E920A4004A4237 /* Commons.framework */; };
 		2E4347C123E920A4004A4237 /* Commons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4347BD23E920A4004A4237 /* Commons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E4347C423E9D810004A4237 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4347C323E9D810004A4237 /* Environment.swift */; };
+		2E4347C623E9D8A3004A4237 /* CreateCookieHybridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4347C523E9D8A3004A4237 /* CreateCookieHybridViewController.swift */; };
+		2E4347C823E9D8B2004A4237 /* ConsumeCookieHybridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4347C723E9D8B2004A4237 /* ConsumeCookieHybridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,9 @@
 		2E4347B523E91BC4004A4237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4347BC23E920A4004A4237 /* UICommons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UICommons.framework; path = ../../Libraries/UICommons.framework; sourceTree = "<group>"; };
 		2E4347BD23E920A4004A4237 /* Commons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commons.framework; path = ../../Libraries/Commons.framework; sourceTree = "<group>"; };
+		2E4347C323E9D810004A4237 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		2E4347C523E9D8A3004A4237 /* CreateCookieHybridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCookieHybridViewController.swift; sourceTree = "<group>"; };
+		2E4347C723E9D8B2004A4237 /* ConsumeCookieHybridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumeCookieHybridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,10 @@
 				2E4347A723E91BC0004A4237 /* SceneDelegate.swift */,
 				2E4347A923E91BC0004A4237 /* FirstViewController.swift */,
 				2E4347AB23E91BC0004A4237 /* SecondViewController.swift */,
+				2E4347C523E9D8A3004A4237 /* CreateCookieHybridViewController.swift */,
+				2E4347C723E9D8B2004A4237 /* ConsumeCookieHybridViewController.swift */,
 				2E4347AD23E91BC0004A4237 /* Main.storyboard */,
+				2E4347C323E9D810004A4237 /* Environment.swift */,
 				2E4347B023E91BC4004A4237 /* Assets.xcassets */,
 				2E4347B223E91BC4004A4237 /* LaunchScreen.storyboard */,
 				2E4347B523E91BC4004A4237 /* Info.plist */,
@@ -177,8 +186,11 @@
 			files = (
 				2E4347AC23E91BC0004A4237 /* SecondViewController.swift in Sources */,
 				2E4347AA23E91BC0004A4237 /* FirstViewController.swift in Sources */,
+				2E4347C623E9D8A3004A4237 /* CreateCookieHybridViewController.swift in Sources */,
 				2E4347A623E91BC0004A4237 /* AppDelegate.swift in Sources */,
 				2E4347A823E91BC0004A4237 /* SceneDelegate.swift in Sources */,
+				2E4347C823E9D8B2004A4237 /* ConsumeCookieHybridViewController.swift in Sources */,
+				2E4347C423E9D810004A4237 /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
